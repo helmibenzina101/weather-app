@@ -25,6 +25,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -89,10 +90,17 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.slim.js",
+              "node_modules/popper.js/dist/umd/popper.js",
+              "node_modules/bootstrap/dist/js/bootstrap.js"
+            ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "82a7a512-8143-4c52-adb3-0b19cf224b3e"
   }
 }
